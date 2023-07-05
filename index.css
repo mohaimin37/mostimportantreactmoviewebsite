@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d2dbdd;
+}
+.heading{
+text-align: center;
+padding: 30px;
+text-transform: uppercase;
+font-size: 15px;
+color: #868686;
+background-color: #fff;
+margin-bottom: 30px;
+
+}
+.card{
+    height: auto;
+    margin: 6%;
+    background-color: #fff;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow :0px 5px black;
+    float: left;
+}
+.card:hover{
+    box-shadow: 0px 30px 18px black;
+}
+.img1{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+
+}
+.movies{
+    background-color: #fff;
+    border-bottom-left-radius: 12px ;
+    border-bottom-right-radius: 12px ;
+    padding: 16px 24px 24px 24px;
+
+}
+.moviename{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #fff;
+    text-transform: capitalize;
+
+
+
+}
+.details{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+}
+.btn{
+    padding: 5px 8px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+    background-color: #fff;
+    outline: none;
+    border: 1px solid black;
+    cursor: pointer;
+
+
+}
